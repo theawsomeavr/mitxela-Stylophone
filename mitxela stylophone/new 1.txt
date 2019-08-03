@@ -1,5 +1,0 @@
-avr-gcc -Wall -Os -DF_CPU=16000000       -Iusbdrv -I.  -mmcu=attiny85 -c USB_Stylocard/usbdrv.c -o USB_Stylocard/usbdrv.o
-avr-gcc -Wall -Os -DF_CPU=16000000       -Iusbdrv -I.  -mmcu=attiny85 -x assembler-with-cpp -c USB_Stylocard/usbdrvasm.s -o USB_Stylocard/usbdrvasm.o
-avr-gcc -Wall -Os -DF_CPU=16000000       -Iusbdrv -I.  -mmcu=attiny85 -c USB_Stylocard/oddebug.c -o USB_Stylocard/oddebug.o
-avr-gcc -Wall -Os -DF_CPU=16000000       -Iusbdrv -I.  -mmcu=attiny85 -c main.c -o main.o
-avr-gcc -Wall -Os -DF_CPU=16000000       -Iusbdrv -I.  -mmcu=attiny85 -o main.elf USB_Stylocard/usbdrv.o USB_Stylocard/usbdrvasm.o USB_Stylocard/oddebug.o main.o
