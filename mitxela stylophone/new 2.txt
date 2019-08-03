@@ -1,1 +1,0 @@
-D:\Arduino\hardware\tools\avr/bin/avrdude -CD:\Arduino\hardware\tools\avr/etc/avrdude.conf -v -pattiny85 -cusbtiny -Uflash:w:C:\Users\DavidDario\Downloads\vusb-20121206\vusb-20121206\examples\hid-mouse\firmware/main.hex:i
